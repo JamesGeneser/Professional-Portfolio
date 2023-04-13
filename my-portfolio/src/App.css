@@ -26,3 +26,13 @@ header{
 .cardTitle{
     padding:2%;
 }
+
+.footer{
+
+}
+
+.title{
+    font-size: 90px;
+    position: relative;
+    left: 30%;
+}

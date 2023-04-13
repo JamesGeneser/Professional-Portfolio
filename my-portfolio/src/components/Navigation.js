@@ -10,9 +10,9 @@ function Navigation() {
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto d-flex flex-row-reverse">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Portfolio</Nav.Link>
+            <Nav className="me-auto d-flex fw-bold">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/project">Portfolio</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
               <Nav.Link href="#linkedIn">LinkedIn</Nav.Link>
             </Nav>

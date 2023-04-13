@@ -1,10 +1,8 @@
 function Footer() {
   return (
     <>
-      <div>
-        <p>LinkedIn</p>
-        <p>Resume</p>
-        <p>Top of page</p>
+      <div className="footer">
+        <footer>go back to the top</footer>
       </div>
       <div>
         <p>Icons</p>
