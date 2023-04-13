@@ -1,4 +1,5 @@
 import React from "react";
+import CardHeader from "react-bootstrap/esm/CardHeader";
 import { useLocation, useNavigate } from "react-router-dom";
 
 function Footer() {
@@ -12,8 +13,10 @@ function Footer() {
           &larr; Back to Home
         </button>
       )}
-      <div>
-        <p>Icons</p>
+      <div className="iconContainer d-flex justify-content-between">
+        <img className="icon" src={require("../images/twitterIcon.png")} />
+        <img className="icon" src={require("../images/instagramIcon.png")} />
+        <img className="icon" src={require("../images/facebookIcon.png")} />
       </div>
     </footer>
   );

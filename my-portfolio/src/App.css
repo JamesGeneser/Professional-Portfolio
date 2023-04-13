@@ -44,3 +44,12 @@ header{
 .portfolioCard{
     width: 50%;
 }
+
+
+
+.iconContainer{
+    max-width: 20%;
+}
+.icon{
+    max-width: 18%;
+}
