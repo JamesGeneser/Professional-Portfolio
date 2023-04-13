@@ -3,8 +3,13 @@ import React from "react";
 function Header() {
   return (
     <>
-      <h1>James Geneser</h1>
-      <p>Professional Portfolio</p>
+      <div className="header">
+        <div className="mainTitle">
+          <h1 className="fw-bold">James Geneser</h1>
+        </div>
+
+        <p className="subTitle">Professional Portfolio</p>
+      </div>
     </>
   );
 }

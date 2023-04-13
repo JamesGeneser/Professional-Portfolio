@@ -1,19 +1,21 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
 
 export default function Home() {
   return (
     <>
-      <h1 className="headline">About Me</h1>
-      <div>
-        <p>img will go here</p>
-      </div>
-      <p>
-        James Geneser is a programmer with front and back-end development
-        skills. In addition to JavaScript, Express, Node, MySQL, MongoDB, React,
-        and Graph QL, he is also experienced in animation and design. James has
-        a mind for creativity and fresh ideas. Take a look around his portfolio
-        to see just a few of those ideas.
-      </p>
+      <Card className="card">
+        <Card.Body>
+          <Card.Title className="fs-1 cardTitle">About Me</Card.Title>
+          <p class="lh-3">
+            James Geneser is a programmer with front and back-end development
+            skills. In addition to JavaScript, Express, Node, MySQL, MongoDB,
+            React, and Graph QL, he is also experienced in animation and design.
+            James has a mind for creativity and fresh ideas. Take a look around
+            his portfolio to see some of his work.
+          </p>
+        </Card.Body>
+      </Card>
     </>
   );
 }

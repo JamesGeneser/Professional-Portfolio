@@ -1,0 +1,28 @@
+header{
+    height: 10%;
+}
+
+.mainTitle{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 2%;
+    padding: 1%
+}
+.subTitle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    padding: 1%;
+    position:relative;
+    left: 8%;
+    bottom: 50px
+}
+
+.card{
+    margin:5% ;
+    width: 30%;
+}
+
+.cardTitle{
+    padding:2%;
+}
