@@ -36,3 +36,11 @@ header{
     position: relative;
     left: 30%;
 }
+
+.modalButton{
+    color: rgba(0,0,0,0.55);
+}
+
+.portfolioCard{
+    width: 50%;
+}

@@ -5,8 +5,11 @@ function Project() {
   return (
     <>
       <h1 className="title">Portfolio Page</h1>
-      <Card style={{}}>
-        <Card.Img variant="top" src="../../images/DiscoveringDenver.png" />
+      <Card className="portfolioCard">
+        <Card.Img
+          variant="top"
+          src={require("../images/DiscoveringDenver.png")}
+        />
         <Card.Body>
           <Card.Title>Discovering Denver</Card.Title>
           <Card.Text>
@@ -19,8 +22,8 @@ function Project() {
           <Card.Link href="#">Go to Project page</Card.Link>
         </Card.Body>
       </Card>
-      <Card style={{}}>
-        <Card.Img variant="top" src="../../images/Librarian.png" />
+      <Card className="portfolioCard">
+        <Card.Img variant="top" src={require("../images/Librarian.png")} />
         <Card.Body>
           <Card.Title>Digital Librarian</Card.Title>
           <Card.Text>
@@ -32,8 +35,8 @@ function Project() {
           <Card.Link href="#">Go to Project page</Card.Link>
         </Card.Body>
       </Card>
-      <Card style={{}}>
-        <Card.Img variant="top" src="../images/ComeInside.gif" />
+      <Card className="portfolioCard">
+        <Card.Img variant="top" src={require("../images/ComeInside.gif")} />
         <Card.Body>
           <Card.Title>Come Inside Music Video</Card.Title>
           <Card.Text>Original drawn animations by James Geneser</Card.Text>

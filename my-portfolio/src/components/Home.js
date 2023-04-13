@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <Card className="card">
+        <Card.Img variant="top" src={require("../images/profile.jpg")} />
         <Card.Body>
           <Card.Title className="fs-1 cardTitle">About Me</Card.Title>
           <p class="lh-3">

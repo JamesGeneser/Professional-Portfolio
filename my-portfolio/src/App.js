@@ -15,6 +15,7 @@ function App() {
       <Router>
         <Header />
         <Navigation />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
