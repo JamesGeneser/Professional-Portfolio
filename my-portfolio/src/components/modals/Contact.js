@@ -12,7 +12,11 @@ function Contact() {
 
   return (
     <>
-      <Button className="modalButton fw-bold" variant="" onClick={handleShow}>
+      <Button
+        className="text-light modalButton fw-bold"
+        variant=""
+        onClick={handleShow}
+      >
         Contact
       </Button>
 

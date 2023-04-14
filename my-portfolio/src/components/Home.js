@@ -4,8 +4,12 @@ import Card from "react-bootstrap/Card";
 export default function Home() {
   return (
     <>
-      <Card className="card">
-        <Card.Img variant="top" src={require("../images/profile.jpg")} />
+      <Card className="aboutCard">
+        <Card.Img
+          className="profileImg"
+          variant="top"
+          src={require("../images/profile.jpg")}
+        />
         <Card.Body>
           <Card.Title className="fs-1 cardTitle">About Me</Card.Title>
           <p className="lh-3">
