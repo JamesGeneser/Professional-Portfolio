@@ -1,5 +1,6 @@
-header{
-    height: 10%;
+.header{
+    max-height: 150px;
+  
 }
 
 .mainTitle{
@@ -7,15 +8,17 @@ header{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     margin: 2%;
-    padding: 1%
+    
 }
 .subTitle{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    padding: 1%;
+ 
+    padding: 10%;
     position:relative;
-    left: 8%;
-    bottom: 50px
+    text-align: center;
+    right: 11%;
+    bottom: 50px;
+    
 }
 
 .card{
@@ -32,11 +35,22 @@ header{
 }
 
 .title{
-    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
     position: relative;
-    left: 30%;
+    text-align: right;
+    padding: 5%;
 }
 
+.modal{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+    
+}
+.sub{
+    font-weight: lighter;
+}
 .modalButton{
     color: rgba(0,0,0,0.55);
 }
@@ -45,11 +59,14 @@ header{
     width: 50%;
 }
 
-
+.icon{
+    max-width: 18%;
+}
 
 .iconContainer{
     max-width: 20%;
 }
-.icon{
-    max-width: 18%;
+
+.icon:hover{
 }
+

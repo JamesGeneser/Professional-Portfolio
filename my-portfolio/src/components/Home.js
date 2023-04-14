@@ -8,7 +8,7 @@ export default function Home() {
         <Card.Img variant="top" src={require("../images/profile.jpg")} />
         <Card.Body>
           <Card.Title className="fs-1 cardTitle">About Me</Card.Title>
-          <p class="lh-3">
+          <p className="lh-3">
             James Geneser is a programmer with front and back-end development
             skills. In addition to JavaScript, Express, Node, MySQL, MongoDB,
             React, and Graph QL, he is also experienced in animation and design.

@@ -1,7 +1,15 @@
 import React from "react";
-import CardHeader from "react-bootstrap/esm/CardHeader";
-import { useLocation, useNavigate } from "react-router-dom";
 
+import { useLocation, useNavigate } from "react-router-dom";
+import { gsap } from "gsap";
+
+function animateIcons() {
+  //   let icon = document.querySelector(".icon");
+  gsap.from(".icon", { x: 1000, opacity: 0, duration: 3 });
+
+  //   setTimeout(() => {}, "3000");
+}
+animateIcons();
 function Footer() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -16,6 +24,7 @@ function Footer() {
       <div className="iconContainer d-flex justify-content-between">
         <img className="icon" src={require("../images/twitterIcon.png")} />
         <img className="icon" src={require("../images/instagramIcon.png")} />
+
         <img className="icon" src={require("../images/facebookIcon.png")} />
       </div>
     </footer>

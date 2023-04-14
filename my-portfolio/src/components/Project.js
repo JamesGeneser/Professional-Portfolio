@@ -4,7 +4,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 function Project() {
   return (
     <>
-      <h1 className="title">Portfolio Page</h1>
+      <h1 className="title">Portfolio</h1>
       <Card className="portfolioCard">
         <Card.Img
           variant="top"
